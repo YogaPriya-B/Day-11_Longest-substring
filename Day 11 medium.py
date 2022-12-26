@@ -1,4 +1,4 @@
-s="aaabbb"
+s=input()
 
 l1=[]
 
@@ -7,7 +7,6 @@ for i in range(0,len(s)+1):
     for j in range(i+1,len(s)+1):
       
         l1.append(s[i:j])
-print(l1)
 k=3
 l=[]
 for m in l1:
